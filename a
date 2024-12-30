@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main(){
+    int n,i;
+    printf("enter an integer");
+    scanf("%d",&n);
+    printf("cube of number from 1 to %d are:\n",n);
+    for(i=1;i<=n;i++)
+    {
+        int cube=i*i*i;
+        printf("cube of %d is %d\n",i,cube);
+    }
+}
+
+
+
+
